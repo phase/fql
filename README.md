@@ -1,0 +1,2 @@
+#fql
+fql (flexible query language) is a language that interprets into SQL. The syntax is very similar, but is more *laid-back*. Most ("most" because not all have been added yet) keywords are lower-case, but you can keep them in upper-case if you want.
