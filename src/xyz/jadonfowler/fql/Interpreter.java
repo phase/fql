@@ -8,9 +8,11 @@ public class Interpreter {
 	public Interpreter(String text){
 		this.input = text;
 		for(String s : text.split(" ")){
-			if(Keyword.isKeyword(s)){
+			if(Keyword.isKeyword(s))
 				output += Keyword.convert(s);
-			}
+			else
+				output += s;
+			output += " ";
 		}
 	}
 	
